@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h2>Simple Form:</h2>
+    <form action="">
+        <label>First Name:
+            <input type="text" name="firstName">
+        </label>
+        
+
+        <label for="lastname">Last Name:</label>
+        <input id="lastname" type="text" name="lastName">
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <!-- Different type of forms -->
+    <h2>Different type of form:</h2>
+
+    <form action="">
+        <label for="telephone">Telephone:</label>
+        <input type="tel" name="telephone" id="telephone">
+
+        <label for="">Email:</label>
+        <input type="email" name="email" id="email">
+        <input type="submit" value="Save"> <br><br>
+
+        <label for="yourMessage">Your Message:</label>
+        <textarea name="yourMessage" id="yourMessage" cols="30" rows="10"></textarea>
+        <input type="submit" value="Save">
+    </form>
+
+
+    <!-- Choosing between set of options -->
+    <h2> Choosing between set of options:</h2>
+
+    <!-- Select/Dropdown --> <h4>Dropdown</h4>
+    <label for="favouriteColor">What is your favourite color?</label>
+    <select name="favouriteColor" id="favouriteColor">
+        <option value="colorRed">Red</option>
+        <option value="colorGreen">Green</option>
+        <option value="colorYellow">Yellow</option>
+        <option value="colorBlack">Black</option>
+        <option value="colorBlue">Blue</option>
+        <option value="colorPink">Pink</option>
+        <option value="colorPurple">Purple</option>
+        <option value="colorOrange">Orange</option>
+    </select>
+    <br>
+
+    <!-- Radio --> <h4>Radio</h4>
+    <fieldset>
+        <legend>Choose your gender:</legend>
+            <input type="radio" name="selectGender" id="male" value='gender1'><label for="male" >Male</label>
+            <input type="radio" name="selectGender" id="female" value='gender2'><label for="female" >Female</label>
+            <input type="radio" name="selectGender" id="transgender" value='gender3'><label for="transgender" >Transgender</label>
+    </fieldset>
+    
+
+    <!-- Checkbox --> <h4>Checkbox</h4>
+    <fieldset>
+        <legend>Choose your subjects:</legend>
+            <input type="checkbox" name="selectSubject" id="python" value="subject1"><label for="python">Python</label>
+            <input type="checkbox" name="selectSubject" id="java" value="subject2"><label for="java">Java</label>
+            <input type="checkbox" name="selectSubject" id="ruby" value="'subject3"><label for="ruby">Ruby</label>
+    </fieldset>
+</body>
+</html>
