@@ -1,0 +1,2 @@
+By accessing this tool we can actually view and even edit the HTML and CSS source code behind the web content. 
+Then, as you make changes to the code, these changes are displayed in real-time in your browser window.
