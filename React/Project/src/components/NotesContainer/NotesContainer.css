@@ -1,0 +1,15 @@
+.notes-container {
+    height: 100%;
+}
+.notes-container h2{
+    margin-bottom: 20 px;
+}
+
+.notes-container_notes {
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+
+}
